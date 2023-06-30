@@ -1,0 +1,19 @@
+{
+	"name": "mahditoosi/wp-plugin-starter",
+	"description": "A WordPress Vue.js starter plugin",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "mahdi Toosi",
+			"email": "mailmahditoosi@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"App\\": "includes/"
+		}
+	}
+}
